@@ -17,7 +17,8 @@ public class player_script : MonoBehaviour {
 				transform.position=new Vector2(transform.position.x, 0f);
 				break;
 			case "water":
-				transform.position=new Vector2(transform.position.x, -0.5f);
+				transform.position=new Vector2(transform.position.x, -
+				                               +0.5f);
 				break;
 			}
 			place=creature.GetComponent<creature_script> ().get_current_tag ();

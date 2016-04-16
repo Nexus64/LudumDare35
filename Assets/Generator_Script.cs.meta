@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af1c714ce183a544aaf4b022a4cbb81f
+timeCreated: 1460803390
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - water_prefab: {fileID: 447190, guid: 79a1d12404559e14fa77d5f603c627ec, type: 2}
+  - ground_prefab: {fileID: 467664, guid: 9515754fc0f6f9946b13391e3fe6e9af, type: 2}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

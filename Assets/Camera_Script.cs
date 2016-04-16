@@ -11,7 +11,7 @@ public class Camera_Script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 	void FixedUpdate(){
 		float speed=player.GetComponent<player_script> ().get_current_speed();

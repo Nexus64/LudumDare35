@@ -3,6 +3,7 @@ using System.Collections;
 
 public class creature_script : MonoBehaviour {
 	public float base_speed;
+	public int live = 1;
 	public string good_tag;
 	string current_tag;
 	// Use this for initialization
@@ -28,9 +29,9 @@ public class creature_script : MonoBehaviour {
 
 	public float get_current_speed(){
 		if (current_tag == good_tag) {
-			return base_speed;
+			return base_speed*live;
 		} else {
-			return base_speed*0.1f;
+			return base_speed*0.1f*live;
 		}
 	}
 
